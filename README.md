@@ -1,13 +1,12 @@
 # Cybersecurity Coursework (4Geeks Academy)
 
-Portafolio de proyectos del bootcamp de ciberseguridad de 4Geeks Academy (31 módulos, 150
-actividades), documentados como writeups técnicos: qué se hizo, cómo se configura y qué se aprendió
-en cada uno. Los proyectos se completan en orden del syllabus, en paralelo a mi preparación de
-CompTIA Security+ (SY0-701).
+Writeups de los proyectos del bootcamp de ciberseguridad de 4Geeks Academy, en el orden del
+syllabus. Cada uno documenta qué hice, cómo se configura y qué aprendí. Lo llevo en paralelo
+a mi preparación del CompTIA Security+.
 
 > **Proyecto insignia (repo aparte):** [banking-soc-lab](https://github.com/danielATD/banking-soc-lab),
-> el lab de SOC bancario en VirtualBox: segmentación de red con pfSense, SIEM Wazuh con detección
-> propia y Active Directory.
+> el lab de SOC bancario: segmentación de red con pfSense, SIEM Wazuh con detección propia y
+> Active Directory.
 
 ## Índice de writeups
 
@@ -30,5 +29,4 @@ CompTIA Security+ (SY0-701).
 04-network-security/    05-incident-response/   06-pentesting/
 ```
 
-Cada writeup incluye: objetivo, entorno, pasos con comandos, evidencia y lecciones aprendidas.
-Sin datos sensibles: IPs de laboratorio, sin credenciales, capturas auditadas antes de publicar.
+Sin datos sensibles: IPs de laboratorio, sin credenciales, capturas revisadas antes de publicar.
