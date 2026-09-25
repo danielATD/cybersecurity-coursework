@@ -1,32 +1,20 @@
-# Cybersecurity Coursework (4Geeks Academy)
+# Ciberseguridad, 4Geeks Academy
 
-Writeups de los proyectos del bootcamp de ciberseguridad de 4Geeks Academy, en el orden del
-syllabus. Cada uno documenta qué hice, cómo se configura y qué aprendí. Lo llevo en paralelo
-a mi preparación del CompTIA Security+.
+Aquí voy subiendo lo que entrego en el programa de ciberseguridad de 4Geeks Academy (320 horas).
+Lo estoy haciendo en paralelo con la preparación del CompTIA Security+ y todavía voy al inicio del
+programa.
 
-> **Proyecto insignia (repo aparte):** [banking-soc-lab](https://github.com/danielATD/banking-soc-lab),
-> el lab de SOC bancario: segmentación de red con pfSense, SIEM Wazuh con detección propia y
-> Active Directory.
+## Entregas publicadas
 
-## Índice de writeups
+| Práctica | Qué hice | Repo |
+|---|---|---|
+| Inyección SQL en DVWA (2025) | Monté DVWA en una Debian, salté el login con `1' OR '1'='1` y escribí el reporte del incidente con impacto y recomendaciones. | [incident-report-for-sql-injection-exercise-project](https://github.com/danielATD/incident-report-for-sql-injection-exercise-project) |
+| Escaneo con nmap (2025) | Escaneé una Debian desde Kali, identifiqué los servicios y sus versiones (Apache y MariaDB) y busqué los CVE que les aplican. | [scan-with-nmap-practice](https://github.com/danielATD/scan-with-nmap-practice) |
 
-| Módulo | Proyecto | Writeup | Estado |
-|---|---|---|---|
-| M1 · Introducción a redes | Understanding the network internals | `01-networking/` | en curso |
-| M2 · Conectividad de red | Network troubleshooting con Packet Tracer | `01-networking/` | pendiente |
-| M3 · Arquitectura de red | Red NAT en VirtualBox | `01-networking/` | pendiente |
-| M4 · Introducción a Linux | El reto de la terminal | `02-linux/` | pendiente |
-| M5 · Administración de Linux | Script de actualización para Debian · Bloqueo de ping con iptables | `02-linux/` | pendiente |
-| M7 · Administración de servidores | Backup automático de WordPress | `03-server-admin/` | pendiente |
-| M9-10 · Seguridad de red | Spoofing & DoS sobre WordPress | `04-network-security/` | pendiente |
-| M12-13 · Respuesta a incidentes | Incident report: SQL injection en DVWA · Escaneo con nmap | `05-incident-response/` | pendiente |
-| … | *(el índice crece con el avance del syllabus)* | | |
+Cada repo es un fork del ejercicio de 4Geeks, así que el README es el enunciado original en
+inglés. Mi entrega es el PDF con mi nombre.
 
-## Estructura
+## Mi proyecto principal
 
-```
-01-networking/          02-linux/               03-server-admin/
-04-network-security/    05-incident-response/   06-pentesting/
-```
-
-Sin datos sensibles: IPs de laboratorio, sin credenciales, capturas revisadas antes de publicar.
+[banking-soc-lab](https://github.com/danielATD/banking-soc-lab): un lab de SOC bancario con
+pfSense, Wazuh con detecciones propias y Active Directory.
